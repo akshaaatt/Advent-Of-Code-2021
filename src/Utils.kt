@@ -5,7 +5,7 @@ import java.security.MessageDigest
 /**
  * Reads lines from the given input txt file.
  */
-fun readInput(day: Int) = File("src/Day$day", "Day$day.txt").readLines()
+fun readInput(day: Int) = File("src/day$day", "Day$day.txt").readLines()
 
 fun readInputAsInts(day: Int) = readInput(day).map { it.toInt() }
 
